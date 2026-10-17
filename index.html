@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#211b2d" />
+  <meta name="description" content="Портфолио Ивана Мастерова — QA Engineer. Ручное тестирование, API, Postman, DevTools, автоматизация UI." />
+  <title>Иван Мастеров — QA Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header" id="top">
+    <nav class="nav container-wide" aria-label="Главное меню">
+      <a class="logo" href="#top">QA Engineer</a>
+      <button type="button" class="menu-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-button nav-first" href="#about">Обо мне</a>
+        <a class="nav-button" href="#skills">Навыки</a>
+        <a class="nav-button" href="#education">Обучение</a>
+        <a class="nav-button" href="#contacts">Контакты</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-name">
+      <div class="hero-photo" role="img" aria-label="Футуристичный портрет в фиолетовом освещении"></div>
+      <div class="circles" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <div class="hero-inner container-wide">
+        <div class="portfolio-arrow"><span>PORTFOLIIO</span></div>
+        <h1 class="hero-name" id="hero-name"><span>Мастеров</span><span>Иван</span></h1>
+        <div class="hero-badges">
+          <div class="glass-pill">Ручное тестирование</div>
+          <div class="glass-pill">DevTools</div>
+          <div class="glass-pill">GameDev</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Технологии: Postman, Swagger, Redoc, Charles, REST API, SOAP, HTTP">
+      <div class="ticker-track" aria-hidden="true">
+        <div class="ticker-set"><span>✤ Postman</span><span>✥ Swagger</span><span>✤ Redoc</span><span>✥ Charles</span><span>✤ REST API</span><span>✥ SOAP</span><span>✤ HTTP</span></div>
+        <div class="ticker-set"><span>✤ Postman</span><span>✥ Swagger</span><span>✤ Redoc</span><span>✥ Charles</span><span>✤ REST API</span><span>✥ SOAP</span><span>✤ HTTP</span></div>
+      </div>
+    </div>
+
+    <section class="about-section texture" id="about">
+      <div class="container-wide intro-grid">
+        <div class="about-copy">
+          <h2>Я QA Engineer с опытом тестирования веб- и мобильных продуктов, API, клиент-серверной архитектуры и интеграций.</h2>
+          <p>Моя задача — не просто найти баг, а понять, где продукт может сломаться, почему это важно для пользователя и как помочь команде выпустить стабильный релиз.</p>
+          <h2>Чем я могу быть полезен?</h2>
+          <p>Я помогаю командам проверять продукт на разных уровнях: от пользовательского интерфейса до API, логов и интеграций.</p>
+          <p>Работаю с функциональным, регрессионным, интеграционным и исследовательским тестированием. Умею разбирать клиент-серверное взаимодействие, проверять запросы и ответы, анализировать логи, искать причины ошибок и описывать дефекты так, чтобы разработчику было понятно, что именно пошло не так.</p>
+          <div class="link-list">
+            <a href="https://t.me/PhilLolliLoveLife" target="_blank" rel="noopener noreferrer"><span class="bullet">✦</span> Связаться: Telegram: @PhilLolliLoveLife</a>
+            <a href="https://github.com/PhilLoli" target="_blank" rel="noopener noreferrer"><span class="bullet">✦</span> Портфолио: GitHub: <u>github.com/PhilLoli</u></a>
+          </div>
+        </div>
+        <figure class="image-wrap portrait-photo"><img data-asset="portrait" alt="Портрет в неоновом фиолетовом свете" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <section class="approach-section texture">
+      <div class="container-wide approach-grid">
+        <figure class="image-wrap approach-photo"><img data-asset="approach" alt="Футуристичный образ с фиолетовым светом" loading="lazy" /></figure>
+        <div class="approach-copy">
+          <h2>Мой подход к QA</h2>
+          <p>Я стараюсь смотреть на продукт не только как тестировщик, но и как пользователь. Для меня важно понять, какую задачу решает функциональность, где находятся риски и какие сценарии могут повлиять на опыт человека.</p>
+          <p>В тестировании я ценю внимательность, понятную коммуникацию и здравый смысл. Хороший баг-репорт — это не просто «что-то не работает», а понятное описание проблемы, шагов, ожидаемого результата и влияния на продукт.</p>
+          <h2>Зоны роста</h2>
+          <p>Я честно отношусь к своему опыту и понимаю, где хочу развиваться дальше.</p>
+          <p>Сейчас мои основные зоны роста:</p>
+          <ul><li>тестирование безопасности;</li><li>практический опыт с Kubernetes.</li></ul>
+          <p>При этом я быстро разбираюсь в новых инструментах, умею задавать правильные вопросы и не боюсь сложных технических задач.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section texture" id="skills">
+      <div class="container-wide">
+        <h2 class="section-title">Ключевые компетенции (Hard Skills)</h2>
+        <div class="skills-accordion" id="skills-accordion">
+          <article class="skill-panel is-active" data-skill="0">
+            <button class="skill-tab" type="button" aria-expanded="true" aria-controls="skill-detail-0"><span class="skill-number">01</span><span class="skill-title">API и клиент-серверная архитектура</span></button>
+            <div class="skill-content" id="skill-detail-0"><p>Работал с HTTP, REST API и SOAP. Проверял запросы, ответы, статусы, заголовки, тела сообщений, ошибки и разные сценарии взаимодействия между клиентом и сервером.</p><ul class="skill-items"><li>Postman</li><li>Swagger</li><li>Redoc</li><li>Charles</li><li>REST API</li><li>SOAP</li><li>HTTP</li></ul><div class="skill-art"><img data-asset="dashboard" alt="Скриншот инструментов для работы с API" loading="lazy" /></div></div>
+          </article>
+          <article class="skill-panel" data-skill="1">
+            <button class="skill-tab" type="button" aria-expanded="false" aria-controls="skill-detail-1"><span class="skill-number">02</span><span class="skill-title">Postman</span></button>
+            <div class="skill-content" id="skill-detail-1" hidden><p>Создаю и проверяю HTTP-запросы, работаю с коллекциями, переменными окружения, авторизацией и сценариями тестирования API.</p><ul class="skill-items"><li>Collections</li><li>Environments</li><li>JavaScript tests</li><li>Mock servers</li></ul></div>
+          </article>
+          <article class="skill-panel" data-skill="2">
+            <button class="skill-tab" type="button" aria-expanded="false" aria-controls="skill-detail-2"><span class="skill-number">03</span><span class="skill-title">Логи, мониторинг и аналитика</span></button>
+            <div class="skill-content" id="skill-detail-2" hidden><p>Ищу причины ошибок по логам и метрикам, анализирую запросы, события и поведение системы для быстрой локализации дефектов.</p><ul class="skill-items"><li>Kibana</li><li>Sentry</li><li>Grafana</li><li>Яндекс Метрика</li></ul></div>
+          </article>
+          <article class="skill-panel" data-skill="3">
+            <button class="skill-tab" type="button" aria-expanded="false" aria-controls="skill-detail-3"><span class="skill-number">04</span><span class="skill-title">Автоматизация (UI)</span></button>
+            <div class="skill-content" id="skill-detail-3" hidden><p>Развиваю практику автоматизированного тестирования пользовательского интерфейса и проверок повторяющихся сценариев.</p><ul class="skill-items"><li>Cypress</li><li>JavaScript</li><li>Git</li><li>UI regression</li></ul></div>
+          </article>
+          <article class="skill-panel" data-skill="4">
+            <button class="skill-tab" type="button" aria-expanded="false" aria-controls="skill-detail-4"><span class="skill-number">05</span><span class="skill-title">Процессы и артефакты</span></button>
+            <div class="skill-content" id="skill-detail-4" hidden><p>Готовлю тест-кейсы, чек-листы и баг-репорты, веду задачи и поддерживаю понятную командную коммуникацию.</p><ul class="skill-items"><li>TestIT</li><li>Яндекс.Трекер</li><li>Баг-репорты</li><li>Чек-листы</li></ul></div>
+          </article>
+          <article class="skill-panel" data-skill="5">
+            <button class="skill-tab" type="button" aria-expanded="false" aria-controls="skill-detail-5"><span class="skill-number">06</span><span class="skill-title">Сниффинг трафика</span></button>
+            <div class="skill-content" id="skill-detail-5" hidden><p>Анализирую сетевые запросы, ответы сервера и клиент-серверное взаимодействие при поиске и воспроизведении ошибок.</p><ul class="skill-items"><li>Charles</li><li>Chrome DevTools</li><li>HTTP / HTTPS</li></ul></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="education-section texture" id="education">
+      <div class="container-wide">
+        <h2 class="section-title">Мои курсы и обучения</h2>
+        <div class="education-grid">
+          <article class="education-card">
+            <div class="education-image"><img data-asset="certificate" alt="Сертификат QA Studio" loading="lazy" /></div>
+            <div class="education-info"><span class="eyebrow">Сертификат</span><h3>QA Studio</h3><p class="card-summary">Обучение на курсе QA Studio «Инженер по тестированию»</p>
+              <button class="card-expand" type="button" aria-expanded="false" aria-controls="course-details" aria-label="Подробнее про QA Studio"><span>Подробнее</span><span class="chevron">⌄</span></button>
+              <div class="card-details" id="course-details" hidden>
+                <p>Интенсив с ментором в группе из 14 человек. Ежедневное управление задачами в Яндекс.Трекер.</p>
+                <ul><li>Клиент-серверная архитектура и HTTP</li><li>DevTools: Network, Application, Cookie, Storage, Cache</li><li>REST API, Swagger, Postman и SOAP UI</li><li>Тест-дизайн, тестовая документация и анализ требований</li><li>Figma, Miro и Яндекс Метрика</li><li>Автотесты Postman на JavaScript</li></ul>
+              </div>
+            </div>
+          </article>
+          <article class="education-card">
+            <div class="education-image"><img data-asset="internship" alt="Сертификат о прохождении стажировки" loading="lazy" /></div>
+            <div class="education-info"><span class="eyebrow">Сертификат</span><h3>Прохождение стажировки</h3><p class="card-summary">56 часов практики на проекте hiiire — платформе поиска кандидатов с интеграцией через hh.ru.</p>
+              <button class="card-expand" type="button" aria-expanded="false" aria-controls="intern-details" aria-label="Подробнее про стажировку"><span>Подробнее</span><span class="chevron">⌄</span></button>
+              <div class="card-details" id="intern-details" hidden>
+                <p>Функциональное тестирование сайта, проверка поиска и передачи данных, создание тест-кейсов и чек-листов.</p>
+                <ul><li>Выявил около 10 дефектов, из них 2 лично оформил в баг-репортах</li><li>Локализовал ошибки в Chrome DevTools</li><li>Взаимодействовал с командой из 19 человек</li><li>Вёл задачи и дефекты в Buildin</li></ul>
+              </div>
+            </div>
+          </article>
+          <article class="education-card">
+            <div class="education-image"><img data-asset="university" alt="Изображение к университетскому обучению" loading="lazy" /></div>
+            <div class="education-info"><span class="eyebrow">На данный момент прохожу обучение</span><h3>Южно-уральский технологический университет</h3><p class="card-summary">Специальность: Информационные системы и технологии.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-about texture">
+      <div class="container-wide"><h2 class="section-title">Обо мне</h2><p>Ответственный и вовлеченный QA-инженер с хорошей базой как в ручном тестировании бэкенда, так и в автоматизации UI. Люблю творческий подход к решению нестандартных задач и ценю здоровую, живую атмосферу в команде — увлекаюсь творчеством, что помогает мне легко находить общий язык с разработчиками и менеджерами.</p><p>Мое жизненное кредо: «Жизнь с музыкой на полную громкость». Эта энергия помогает мне не выгорать и драйвить рабочие процессы.</p><p>На данный момент активно развиваюсь в профессии: углубляю знания в автоматизации и планирую изучить основы тестирования безопасности, а также работу с Kubernetes.</p></div>
+    </section>
+  </main>
+  <footer class="footer" id="contacts"><div class="container-wide footer-grid"><div><h2>Давайте работать вместе</h2><p>Ищу возможности, где смогу быть полезен как QA Engineer: тестировать продукт, улучшать процессы качества, помогать команде выпускать стабильные релизы и развиваться дальше в автоматизации и техническом QA.</p></div><div class="footer-links"><a href="https://t.me/PhilLolliLoveLife" target="_blank" rel="noopener noreferrer">✦ &nbsp; Связаться: Telegram: @PhilLolliLoveLife</a><a href="https://github.com/PhilLoli" target="_blank" rel="noopener noreferrer">✦ &nbsp; Портфолио: GitHub: <u>github.com/PhilLolli</u></a></div></div></footer>
+</body>
+</html>
